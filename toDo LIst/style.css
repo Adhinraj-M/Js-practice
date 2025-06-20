@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://plus.unsplash.com/premium_photo-1686729237226-0f2edb1e8970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyfGVufDB8fDB8fHww);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  background-color: rgb(235, 229, 219);
+  margin-top: 4rem;
+  padding: 20px 60px 30px 60px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  margin: 0;
+  margin-bottom: 30px;
+  color: rgb(72, 72, 214);
+}
+
+.list-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+#input-text {
+  border: none;
+  padding-block: 10px;
+  border-radius: 5px;
+}
+
+#input-text:focus {
+  background: rgb(255, 255, 255);
+  outline: none;
+}
+
+#input-text::placeholder {
+  color: rgb(78, 75, 75);
+  padding-left: 6px;
+}
+
+.new-list {
+  font-size: 30px;
+  color: white;
+  background: grey;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin-inline: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.delete-btn {
+  border: none;
+  color: white;
+  background: grey;
+  font-size: 20px;
+  padding-block: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-inline: 12px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.new-task {
+  width: 220px;
+  color: black;
+  height: 40px;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.clear-btn{
+  border: none;
+  color: white;
+  background: grey;
+  font-size: 16px;
+  padding-block: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-inline: 12px;
+}
