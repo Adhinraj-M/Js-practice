@@ -687,6 +687,143 @@
 
 // let animal = new Animal('dog')
 
+
 // animal.eats()
 
-// constructor functin 
+// 
+
+// const arr = [1,2,3,4,5,6,7]
+
+// const aft = arr.filter((item) =>  item % 2 == 1  )
+
+// console.log(aft)
+
+// const chg = arr.map((item) => item * 2)
+ 
+// console.log(chg)
+
+// const book ={
+//     title:'Wings of fire',
+//     author:'APJ Abdul Kalam',
+//     pages:345
+// }
+
+// const allKey = Object.values(book)
+
+// console.log(allKey)
+
+
+// const str = 'malayalam'
+
+// const aftreRev = function (str){
+//     let rev = str.split('').reverse().join('') // first it will make the string into array of character and then it rever the splited character and then it will join all the characters.
+
+//     if(rev === str)
+//     {
+//         return `${str} is a palindrom`;
+//     }
+//     else{
+//         return `${str} is not a palindrom`
+//     }
+
+// }
+
+// console.log(aftreRev(str))
+
+// const arr = [6,3,7,1,5,2]
+
+// const afterSor = arr.sort((a,b) =>  b - a)
+
+// console.log(afterSor)
+
+
+// class Person{
+//     constructor(name, age){
+//         this.name = name
+//         this.age = age
+//     }
+
+//     greet(){
+//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
+//     }
+// }
+
+// const walter = new Person('walter',27)
+// walter.greet()
+
+// class Car {
+//     constructor(brand, model, year){
+//         this.brand = brand
+//         this. model = model
+//         this. year = year
+//     }
+
+//     start(){
+//         console.log(`Starting ${this.brand} ${this.model}`);
+        
+//     }
+// }
+
+// const Honda = new Car('Honda','City',2016)
+// Honda.start()
+
+
+// class Book{
+//     constructor(title,author,pages){
+//         this.title = title
+//         this.author = author;
+//         this.pages = pages
+//     }
+
+//     describe(){
+//         console.log(`Book: ${this.title} by ${this.author},${this.pages} pages.`)
+//     }
+// }
+
+// const theHobbit = new Book('The Hobbit','J.R.R Tolkien',310)
+// theHobbit.describe()
+
+
+// class Animal{
+//     makeSound(){
+//         console.log('Some generic animal sound')
+//     }
+// }
+
+// class Dog extends Animal{
+//     makeSound()
+// {
+//     console.log('Woof!')
+// }
+// }
+
+// const dog = new Dog()
+
+// dog.makeSound()
+
+
+// class student{
+
+//     #gpa = 3.5
+
+//     constructor(name,rollNumber){
+//         this.name = name
+//         this.rollNumber = rollNumber
+//     }
+
+//     set GPA(score){
+//         return this.score
+//     }
+
+//     get GPA(){
+//         return this.#gpa
+//     }
+// }
+
+
+// abstraction = ignoring unwanted detials and showing only need functionality to the user
+// encapsulation = keeping the properties and method private inside the class so they are not accessible from the outside.it restric the direct access of some of the method and properties.
+// object created from a class is called the instance.  const person = new Person()
+// polymorphism = A child class can overwrite a method inherited from a parent class.
+
+// 
